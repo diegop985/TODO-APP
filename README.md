@@ -2,4 +2,4 @@
 
 Click here to see the Live Page.
 
-[TODO APP](https://diegop985.github.io/TODO-APP/)
+<a href="https://diegop985.github.io/TODO-APP/" target="_blank">TODO APP</a>
