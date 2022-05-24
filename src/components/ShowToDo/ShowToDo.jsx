@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { DeleteButton } from '../DeteleEntry/DeleteButton';
+import { EditEntry } from '../EditEntry/EditEntry';
 import './showtodo.css'
 
 
@@ -21,12 +22,18 @@ export const ShowToDo = ({ todoValue, setTodoValue }) => {
 
                             <li key={index}>
                             <p>{element}</p>
-                            <DeleteButton 
-                            index={index} 
-                            todoValue={todoValue} 
-                            setTodoValue={setTodoValue}
-                                
-                            /> 
+                            <div className='opt-buttons'>
+                                <EditEntry
+                                index={index} 
+                                todoValue={todoValue} 
+                                setTodoValue={setTodoValue}
+                                />
+                                <DeleteButton 
+                                index={index} 
+                                todoValue={todoValue} 
+                                setTodoValue={setTodoValue}
+                                /> 
+                            </div>
                             </li> 
                         ) 
                     })
