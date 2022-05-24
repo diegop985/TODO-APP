@@ -2,8 +2,4 @@
 
 Click here to see the Live Page.
 
-<html>
-    <body>
-    <a>https://diegop985.github.io/TODO-APP/</a>
-    </body>
-</html>
+[TODO APP](https://diegop985.github.io/TODO-APP/)
